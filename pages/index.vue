@@ -35,8 +35,6 @@ export default {
   },
   methods: {
     addDataForm() {
-      // alert("hidup")
-      // console.log(this.CardForm.fnameL)
       this.CardData.fnameR = this.CardForm.fnameL;
       this.CardData.lnameR = this.CardForm.lnameL;
       this.CardData.genderR = this.CardForm.genderL;
