@@ -6,8 +6,8 @@
 </template>
 
 <script>
-import CardForm from "~/components/moleculles/CardForm"
-import CardData from "~/components/moleculles/CardData"
+import CardForm from "~/components/mollecules/CardForm"
+import CardData from "~/components/mollecules/CardData"
 export default {
   components:{
     CardForm,
