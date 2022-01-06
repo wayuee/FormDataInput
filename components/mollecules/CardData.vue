@@ -1,7 +1,7 @@
 <template>
-  <div class="float-right p-10 bg-blue-200 pb-20 rounded-xl">
-    <h1 class="text-2xl font-bold text-center">Registration Data</h1>
-    <InputText class="pr-28" labelInput="Firstname" :input-value="CardData.fnameR" v-model="CardData.fnameR" />
+  <div class="float-right pt-5 pb-8 px-14 bg-blue-200 pb-16 rounded-xl">
+    <h1 class="text-xl font-bold text-center">Registration Data</h1>
+    <InputText labelInput="Firstname" :input-value="CardData.fnameR" v-model="CardData.fnameR" />
     <InputText labelInput="Lastname" :input-value="CardData.lnameR" v-model="CardData.lnameR" />
     <InputText labelInput="Gender" :input-value="CardData.genderR" v-model="CardData.genderR" />
     <InputText labelInput="Email" :input-value="CardData.emailR" v-model="CardData.emailR" />

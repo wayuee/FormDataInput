@@ -1,9 +1,9 @@
 <template>
-  <label :for="labelInput" class="text-"
+  <label :for="labelInput" class="pl-4 text-sm"
     >{{ labelInput }} : <br />
     <input
       type="text"
-      class="w-full my-3 pr-96 py-2 border rounded-xl"
+      class="w-full my-1.5 pr-72 py-2 pl-5 border rounded-xl"
       :placeholder="labelInput"
       :value="inputValue"
       @input="inputData"

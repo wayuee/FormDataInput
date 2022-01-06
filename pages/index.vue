@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="pt-5 pb-10 px-16">
     <HeaderSelector :card-form="CardForm" :card-data="CardData" @clickButton="addDataForm"/>
   </div>
 </template>
