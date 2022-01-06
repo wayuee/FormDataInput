@@ -36,6 +36,8 @@ export default {
     '@nuxtjs/tailwindcss',
   ],
 
+  router:{base: "/TodoList/"},
+
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
